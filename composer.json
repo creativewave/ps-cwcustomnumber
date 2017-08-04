@@ -1,0 +1,27 @@
+{
+  "name": "creativewave/ps-cwcustomnumber",
+  "description": "Prestashop module for customizing invoice and credit slip numbers.",
+  "type": "prestashop-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guillaume Lebas",
+      "email": "contact@creative-wave.fr"
+    }
+  ],
+  "extra": {
+    "installer-name": "cwcustomnumber"
+  },
+  "dist": {
+      "type": "zip",
+      "url": "https://github.com/creativewave/ps-cwcustomnumber/releases/download/v1.0.0/cwcustomnumber.zip"
+  },
+  "require": {
+    "composer/installers": "^1",
+    "php": "^7"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2",
+    "phpunit/phpunit": "^6"
+  }
+}
